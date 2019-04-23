@@ -13,12 +13,15 @@ public class Stack<T> {
         }
     }
 
-    public void pop() {
+    public T pop() {
+        T val = null;
         if (!isEmpty()) {
-            T val = first.getData();
+            val = first.getData();
             first = first.getNext();
-            System.out.println("val deleted: " + val);
+            //System.out.println("val deleted: " + val);
         }
+
+        return val;
     }
 
     public void top() {

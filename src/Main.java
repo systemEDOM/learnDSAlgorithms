@@ -52,15 +52,15 @@ public class Main {
         dlinkedList.printReverse();*/
 
         /*Queue<Integer> q = new Queue<>();
-        q.enqueue(1);
-        q.enqueue(2);
-        q.enqueue(3);
-        q.enqueue(4);
+        q.add(1);
+        q.add(2);
+        q.add(3);
+        q.add(4);
         q.front();
-        q.dequeue();
-        q.dequeue();
+        q.remove();
+        q.remove();
         q.front();
-        q.dequeue();
+        q.remove();
         q.front();
         q.print();*/
 
@@ -73,8 +73,8 @@ public class Main {
         s.top();
         s.print();*/
 
-        /*Graph graph = new Graph();
-        graph.addVertex("Bob");
+        Graph graph = new Graph();
+        /*graph.addVertex("Bob");
         graph.addVertex("Alice");
         graph.addVertex("Mark");
         graph.addVertex("Rob");
@@ -85,10 +85,73 @@ public class Main {
         graph.addEdge("Rob", "Mark");
         graph.addEdge("Alice", "Maria");
         graph.addEdge("Rob", "Maria");
-        graph.removeVertex("Alice");
-        graph.removeEdge("Bob", "Rob");
-        graph.getAdjVertices("Bob").forEach(x -> System.out.println("Bob -> "+x.getLabel()));
-        graph.printGraph();*/
+        //graph.removeEdge("Bob","Alice");
+        System.out.println(graph.depthFirstTraversal("Bob").toString());*/
+        //graph.removeVertex("Alice");
+        //graph.printGraph();
+        graph.addVertex("A");
+        graph.addVertex("B");
+        graph.addVertex("S");
+        graph.addVertex("C");
+        graph.addVertex("G");
+        graph.addVertex("D");
+        graph.addVertex("E");
+        graph.addVertex("F");
+        graph.addVertex("H");
+        graph.addEdge("A", "B");
+        graph.addEdge("A", "S");
+        graph.addEdge("S", "C");
+        graph.addEdge("S", "G");
+        graph.addEdge("C", "D");
+        graph.addEdge("C", "E");
+        graph.addEdge("C", "F");
+        graph.addEdge("E", "H");
+        graph.addEdge("G", "F");
+        graph.addEdge("G", "H");
+        //graph.removeVertex("H");
+        graph.removeEdge("B", "A");
+        graph.printGraph();
+        System.out.println(graph.depthFirstTraversal("A").toString());
+        /*graph.addVertex("A");
+        graph.addVertex("B");
+        graph.addVertex("C");
+        graph.addVertex("D");
+        graph.addVertex("E");
+        graph.addVertex("F");
+        graph.addVertex("G");
+        graph.addVertex("H");
+        graph.addEdge("A", "B");
+        graph.addEdge("A", "D");
+        graph.addEdge("A", "G");
+        graph.addEdge("B", "E");
+        graph.addEdge("B", "F");
+        graph.addEdge("E", "G");
+        graph.addEdge("F", "C");
+        graph.addEdge("F", "D");
+        graph.addEdge("C", "H");
+        System.out.println(graph.depthFirstTraversal("A").toString());
+        System.out.println(graph.breadthFirstTraversal("A").toString());*/
+        //graph.removeVertex("B");
+        //graph.removeEdge("Bob", "Rob");
+        //graph.getAdjVertices("Bob").forEach(x -> System.out.println("Bob -> "+x.getLabel()+" val: "));
+        //graph.getAdjVertices("Bob").forEach(x -> System.out.println("Bob -> "+x.getLabel()));
+        //graph.printGraph();
+        /*graph.addVertex("0");
+        graph.addVertex("1");
+        graph.addVertex("2");
+        graph.addVertex("3");
+        graph.addVertex("4");
+        graph.addVertex("5");
+        graph.addEdge("0", "1");
+        graph.addEdge("0", "2");
+        graph.addEdge("1", "2");
+        graph.addEdge("1", "3");
+        graph.addEdge("2", "3");
+        graph.addEdge("3", "4");
+        graph.addEdge("4", "1");
+        graph.addEdge("4", "0");
+        graph.addEdge("4", "5");
+        System.out.println(graph.depthFirstTraversal("0").toString());*/
 
     }
 }

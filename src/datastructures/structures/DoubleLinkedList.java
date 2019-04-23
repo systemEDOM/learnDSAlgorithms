@@ -22,11 +22,6 @@ public class DoubleLinkedList<T> {
         index++;
     }
 
-    //1
-    //2
-    //3
-    //1-2-3
-
     //o(n)
     public void findData(T data) {
         Node currNode = head;

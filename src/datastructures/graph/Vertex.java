@@ -1,7 +1,7 @@
 package datastructures.graph;
 
 public class Vertex {
-    String label;
+    private String label;
 
     public Vertex(String label) {
         this.label = label;

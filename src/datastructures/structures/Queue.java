@@ -4,7 +4,7 @@ public class Queue<T> {
     private Node<T> first;
     private Node<T> last;
 
-    public void enqueue(T data) {
+    public void add(T data) {
         Node<T> node = new Node<>(data);
         if (first == null) {
             first = node;
@@ -15,12 +15,15 @@ public class Queue<T> {
         }
     }
 
-    public void dequeue() {
+    public T remove() {
+        T val = null;
         if (!isEmpty()) {
-            T val = first.getData();
+            val = first.getData();
             first = first.getNext();
-            System.out.println("val deleted: " + val);
+            //System.out.println("val deleted: " + val);
         }
+
+        return val;
     }
 
     public void front() {
