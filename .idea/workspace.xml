@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7211f457-9224-4965-8626-b18e79c87314" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/datastructures/graph/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructures/tree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructures/tree/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DataStructures/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/datastructures/algorithms/Algorithms.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DataStructures/datastructures/graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/datastructures/graph/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/datastructures/graph/Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/datastructures/graph/Vertex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/datastructures/structures/DoubleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/datastructures/structures/DoubleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/datastructures/structures/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/datastructures/structures/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/datastructures/structures/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/datastructures/structures/Stack.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructures/algorithms/Algorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Algorithms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datastructures/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/graph/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/graph/Vertex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/structures/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/structures/DoubleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/structures/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/structures/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/structures/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/structures/Stack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,62 +27,75 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="111" column="35" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
+            <state relative-caret-position="514">
+              <caret line="193" column="27" selection-start-line="193" selection-start-column="27" selection-end-line="193" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructures/graph/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="124" column="84" selection-start-line="124" selection-start-column="84" selection-end-line="124" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructures/tree/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <folding>
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructures/tree/Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-149">
+              <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="85" selection-end-column="28" />
+              <folding>
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#2280#2281#0" expanded="true" />
+                <element signature="e#2309#2310#0" expanded="true" />
+                <element signature="e#2534#2535#0" expanded="true" />
+                <element signature="e#2564#2565#0" expanded="true" />
+                <element signature="e#1161#1162#0" expanded="true" />
+                <element signature="e#1196#1197#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/datastructures/graph/Graph.java">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/Algorithms.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="122" column="30" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
+            <state relative-caret-position="2614">
+              <caret line="162" column="65" selection-start-line="162" selection-start-column="65" selection-end-line="162" selection-end-column="65" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datastructures/graph/Edge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-              <folding>
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datastructures/graph/Vertex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-              <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#2612#2621#0" expanded="true" />
+                <element signature="e#4127#4142#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,6 +118,7 @@
       <find>last</find>
       <find>Bob</find>
       <find>C</find>
+      <find>left</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,8 +136,11 @@
         <option value="$PROJECT_DIR$/src/datastructures/graph/Vertex.java" />
         <option value="$PROJECT_DIR$/src/datastructures/graph/Edge.java" />
         <option value="$PROJECT_DIR$/src/datastructures/structures/DoubleLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/datastructures/graph/Graph.java" />
+        <option value="$PROJECT_DIR$/src/datastructures/tree/Node.java" />
+        <option value="$PROJECT_DIR$/src/datastructures/tree/Tree.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/Algorithms.java" />
       </list>
     </option>
   </component>
@@ -161,14 +173,13 @@
               <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
@@ -182,7 +193,7 @@
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="structures" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,7 +209,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -243,12 +254,12 @@
       <workItem from="1555217818178" duration="8862000" />
       <workItem from="1555377681405" duration="13773000" />
       <workItem from="1555482491135" duration="20793000" />
-      <workItem from="1555811614990" duration="38861000" />
+      <workItem from="1555811614990" duration="53391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82336000" />
+    <option name="totallyTimeSpent" value="96866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -263,7 +274,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.501634" side_tool="true" weight="0.24320458" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30321783" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25742576" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39975247" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -271,7 +282,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32920793" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32673267" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -300,24 +311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructures/structures/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="e#1035#1036#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructures/algorithms/Algorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
@@ -364,9 +357,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructures/structures/DoubleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructures/structures/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructures/tree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructures/structures/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="2808">
           <caret line="156" column="4" selection-start-line="156" selection-start-column="4" selection-end-line="159" selection-end-column="5" />
           <folding>
             <element signature="e#4767#4768#0" expanded="true" />
@@ -383,29 +403,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructures/structures/DoubleLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/datastructures/graph/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="111" column="35" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
+        <state relative-caret-position="682">
+          <caret line="124" column="84" selection-start-line="124" selection-start-column="84" selection-end-line="124" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructures/graph/Graph.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="122" column="30" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
+        <state relative-caret-position="514">
+          <caret line="193" column="27" selection-start-line="193" selection-start-column="27" selection-end-line="193" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructures/tree/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="85" selection-end-column="28" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#2280#2281#0" expanded="true" />
+            <element signature="e#2309#2310#0" expanded="true" />
+            <element signature="e#2534#2535#0" expanded="true" />
+            <element signature="e#2564#2565#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/Algorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2614">
+          <caret line="162" column="65" selection-start-line="162" selection-start-column="65" selection-end-line="162" selection-end-column="65" />
+          <folding>
+            <element signature="e#2612#2621#0" expanded="true" />
+            <element signature="e#4127#4142#0" expanded="true" />
           </folding>
         </state>
       </provider>

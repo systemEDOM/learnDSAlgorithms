@@ -122,7 +122,7 @@ public class Graph {
         for (Map.Entry<Vertex, Set<Edge>> ent : adjVertices.entrySet()) {
             System.out.println(ent.getKey().getLabel());
             for (Edge ed : ent.getValue()) {
-                System.out.println(ed.getSrc().getLabel()+" -> "+ed.getDest().getLabel());
+                System.out.println(ed.getSrc().getLabel()+" weight: "+ed.getWeight()+" -> "+ed.getDest().getLabel());
             }
         }
     }

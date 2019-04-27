@@ -1,12 +1,5 @@
-import datastructures.algorithms.Algorithms;
-import datastructures.graph.Graph;
-import datastructures.structures.DoubleLinkedList;
-import datastructures.structures.LinkedList;
-import datastructures.structures.Queue;
-import datastructures.structures.Stack;
-
-import java.util.Arrays;
-import java.util.List;
+import algorithms.Algorithms;
+import datastructures.tree.Tree;
 
 public class Main {
 
@@ -35,6 +28,7 @@ public class Main {
         linkedList.printReverse();*/
 
 
+
         /*System.out.println("**Double Linked List**");
         DoubleLinkedList<Integer> dlinkedList = new DoubleLinkedList<>();
         //System.out.println("Is empty: "+linkedList.isEmpty());
@@ -51,6 +45,8 @@ public class Main {
         dlinkedList.print();
         dlinkedList.printReverse();*/
 
+
+
         /*Queue<Integer> q = new Queue<>();
         q.add(1);
         q.add(2);
@@ -64,6 +60,8 @@ public class Main {
         q.front();
         q.print();*/
 
+
+
         /*Stack<Integer> s = new Stack<>();
         s.push(1);
         s.push(2);
@@ -73,7 +71,9 @@ public class Main {
         s.top();
         s.print();*/
 
-        Graph graph = new Graph();
+
+
+        //Graph graph = new Graph();
         /*graph.addVertex("Bob");
         graph.addVertex("Alice");
         graph.addVertex("Mark");
@@ -89,7 +89,7 @@ public class Main {
         System.out.println(graph.depthFirstTraversal("Bob").toString());*/
         //graph.removeVertex("Alice");
         //graph.printGraph();
-        graph.addVertex("A");
+        /*graph.addVertex("A");
         graph.addVertex("B");
         graph.addVertex("S");
         graph.addVertex("C");
@@ -109,9 +109,9 @@ public class Main {
         graph.addEdge("G", "F");
         graph.addEdge("G", "H");
         //graph.removeVertex("H");
-        graph.removeEdge("B", "A");
+        //graph.removeEdge("B", "A");
         graph.printGraph();
-        System.out.println(graph.depthFirstTraversal("A").toString());
+        System.out.println(graph.depthFirstTraversal("A").toString());*/
         /*graph.addVertex("A");
         graph.addVertex("B");
         graph.addVertex("C");
@@ -153,5 +153,46 @@ public class Main {
         graph.addEdge("4", "5");
         System.out.println(graph.depthFirstTraversal("0").toString());*/
 
+
+        /*Tree tree = new Tree();
+        tree.add(4);
+        tree.add(1);
+        tree.add(3);
+        tree.add(5);
+        tree.add(6);
+        tree.add(7);
+        tree.add(0);
+        System.out.println("Finding: "+tree.contains(4));
+        //tree.delete(0);
+        System.out.println("InOrder...");
+        tree.inOrder();
+        System.out.println("PreOrder...");
+        tree.preOrder();
+        System.out.println("PostOrder...");
+        tree.postOrder();*/
+        /*
+                4
+              /   \
+             1     5
+            / \     \
+           0   3     6
+                      \
+                       7
+         */
+
+
+
+
+        //int[] nums = {1,1,1,2,2,3};
+        //int[] nums = {1};
+        /*int[] nums = {1,6,2,1,6,1,6};
+        int k = 2;
+        //System.out.println(algorithms.topKFrequent(nums,k));
+        System.out.println(algorithms.topKFrequent2(nums,k));*/
+
+        int[] nums = {1,2,3};
+        System.out.println(algorithms.subsets(nums));
     }
 }
+
+
