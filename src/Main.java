@@ -1,5 +1,6 @@
 import algorithms.Algorithms;
 import datastructures.tree.Tree;
+import sortingalgorithms.SortArray;
 
 public class Main {
 
@@ -190,8 +191,21 @@ public class Main {
         //System.out.println(algorithms.topKFrequent(nums,k));
         System.out.println(algorithms.topKFrequent2(nums,k));*/
 
-        int[] nums = {1,2,3};
-        System.out.println(algorithms.subsets(nums));
+        /*int[] nums = {1,2,3};
+        System.out.println(algorithms.subsets(nums));*/
+
+
+
+        //Sorting algorithms
+        //int[] nums = {2,3,6,1,7,8,9};
+        int[] nums = {1,4,1,2,7,5,2};
+        //SortArray.selectionSort(nums);
+        //SortArray.bubbleSort(nums);
+        //SortArray.insertionSort(nums);
+        //SortArray.mergeSort(nums);
+        //SortArray.quicksort(nums);
+        //SortArray.heapSort(nums);
+        SortArray.countingSort(nums, 9); //nine is the range of my input
     }
 }
 
