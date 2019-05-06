@@ -1,5 +1,8 @@
 package algorithms;
 
+import sortingalgorithms.SortArray;
+
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class Algorithms {
@@ -177,5 +180,69 @@ public class Algorithms {
                 path.remove(path.size()-1);
             }
         }
+    }
+
+    public void deckRevealedIncreasing(int[] deck) {
+        int N = deck.length;
+        Deque<Integer> index = new LinkedList();
+        for (int i = 0; i < N; ++i) {
+            index.add(i);
+        }
+
+        int[] ans = new int[N];
+        Arrays.sort(deck);
+        for (int card: deck) {
+            ans[index.pollFirst()] = card;
+            if (!index.isEmpty()) {
+                index.add(index.pollFirst());
+            }
+        }
+
+        System.out.println(Arrays.toString(ans));
+    }
+
+    public void pancakeSort(int[] A) {
+        List<Integer> result = new ArrayList<>();
+        for (int next = A.length; next > 0; next--) {
+            int index = getIndex(A, next);
+            if (index != next - 1) {
+                if (index != 0) {
+                    result.add(index + 1);
+                }
+                result.add(next);
+                reverseFirstKIndexes(A, index);
+                reverseFirstKIndexes(A, next - 1);
+            }
+        }
+        System.out.println(result);
+    }
+
+    private static void reverseFirstKIndexes(int[] A, int index) {
+        for (int start = 0, end = index; start < end; start++, end--) {
+            SortArray.swap(A, end, start);
+        }
+    }
+    private static int getIndex(int[] A, int value) {
+        for (int i = 0; i < A.length; i++) {
+            if (A[i] == value) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public void findDuplicates(int[] nums) {
+        List<Integer> ans = new ArrayList<>();
+
+        for (int i : nums) {
+            int index = Math.abs(i) - 1;
+            System.out.println("ind: "+index);
+            if (nums[index] < 0)
+                ans.add(Math.abs(i));
+            else
+                nums[index] *= -1;
+        }
+
+        System.out.println(ans);
     }
 }
