@@ -198,14 +198,28 @@ public class Main {
 
         //Sorting algorithms
         //int[] nums = {2,3,6,1,7,8,9};
-        int[] nums = {1,4,1,2,7,5,2};
+        //int[] nums = {1,4,1,2,7,5,21};
+        //int[] nums = {56,35,62,16,3};
+        int[] nums = {101,5,4,2,1,9,28,59,39};
         //SortArray.selectionSort(nums);
         //SortArray.bubbleSort(nums);
         //SortArray.insertionSort(nums);
         //SortArray.mergeSort(nums);
         //SortArray.quicksort(nums);
         //SortArray.heapSort(nums);
-        SortArray.countingSort(nums, 9); //nine is the range of my input
+        //SortArray.countingSort(nums, 9); //nine is the range of my input
+        //SortArray.radixSort(nums);
+        SortArray.radixSortBestImplemented(nums);
+
+
+        //int[] deck = {17,13,11,2,3,5,7};
+        //algorithms.deckRevealedIncreasing(deck);
+
+        //int[] pancakes = {3,2,4,1};
+        //algorithms.pancakeSort(pancakes);
+
+        //int[] nums2 = {4,3,2,7,8,2,3,1};
+        //algorithms.findDuplicates(nums2);
     }
 }
 

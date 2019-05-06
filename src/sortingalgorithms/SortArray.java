@@ -1,12 +1,10 @@
 package sortingalgorithms;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class SortArray {
 
-    //time complex o(n^2)
+    //time complex o(n^2), space o(1)
     public static void selectionSort(int[] nums) {
         int n = nums.length;
         for (int i = 0; i < n; i++) {
@@ -21,7 +19,7 @@ public class SortArray {
         System.out.println(Arrays.toString(nums));
     }
 
-    //time complex bestcase: o(n) worst and average case: o(n^2)
+    //time complex bestcase: o(n) worst and average case: o(n^2), space o(1)
     public static void bubbleSort(int[] nums) {
         int n = nums.length;
         boolean swapped;
@@ -39,7 +37,7 @@ public class SortArray {
     }
 
 
-    //time complex best case: o(n) worst and average case: o(n^2)
+    //time complex best case: o(n) worst and average case: o(n^2), space o(1)
     public static void insertionSort(int[] nums) {
         int n = nums.length;
         for (int i = 1; i < n; i++) {
@@ -55,7 +53,7 @@ public class SortArray {
         System.out.println(Arrays.toString(nums));
     }
 
-    //time complext o(nlongn)
+    //time complext o(nlongn), space o(n)
     public static void mergeSort(int[] nums) {
         mergeSort(nums, 0, nums.length-1);
         System.out.println(Arrays.toString(nums));
@@ -108,7 +106,7 @@ public class SortArray {
         }
     }
 
-    //complex time o(nlong) worst case: o(n^2)
+    //complex time o(nlong) worst case: o(n^2), space o(n)
     public static void quicksort(int[] nums) {
         quicksort(nums, 0, nums.length-1);
         System.out.println(Arrays.toString(nums));
@@ -188,7 +186,72 @@ public class SortArray {
         System.out.println(Arrays.toString(output));
     }
 
+    //time comple o(nk) , space o(n+k)
     public static void radixSort(int[] nums) {
+        List<LinkedList<Integer>> saved = new ArrayList<>();
+        Queue<Integer> numbers = new LinkedList<>();
+
+        int maxDigitSize = getMaxRadix(nums);
+
+        for (int i : nums) numbers.add(i);
+
+        for (int i = 0; i < 10; i++) saved.add(new LinkedList<>());
+
+        for (int i = 1; maxDigitSize/i > 0; i *= 10) {
+
+            for (int j = 0; j < nums.length; j++) {
+                int number = numbers.remove();
+                int digit = (number / i) % (10);
+                saved.get(digit).add(number);
+            }
+            int j = 0;
+            while (!saved.isEmpty() && j < 10) {
+                while (!saved.get(j).isEmpty()) {
+                    int num = saved.get(j).remove();
+                    numbers.add(num);
+                }
+                j++;
+            }
+        }
+
+        System.out.println(numbers);
+    }
+
+    //time complex o(nk), space o(n+k)
+    public static void radixSortBestImplemented(int[] nums) {
+        int maxDigitSize = getMaxRadix(nums);
+
+        for (int i = 1; maxDigitSize/i > 0; i *= 10) {
+            int[] sorted = new int[nums.length];
+            int[] count = new int[10];
+            Arrays.fill(count, 0);
+
+            for (int j = 0; j < nums.length; j++) {
+                count[(nums[j]/i)%10]++;
+            }
+
+            for (int j = 1; j < 10; j++)
+                count[j] += count[j - 1];
+
+            for (int j = nums.length - 1; j >= 0; j--) {
+                sorted[count[(nums[j]/i)%10] - 1] = nums[j];
+                count[(nums[j]/i)%10]--;
+            }
+
+            for (int j = 0; j < nums.length; j++)
+                nums[j] = sorted[j];
+        }
+
+        System.out.println(Arrays.toString(nums));
+    }
+
+    public static int getMaxRadix(int[] nums) {
+        int max = Integer.MIN_VALUE;
+        for (int i : nums) {
+            if (i > max) max = i;
+        }
+
+        return max;
     }
 
     public static void swap(int[] nums, int i, int j) {
