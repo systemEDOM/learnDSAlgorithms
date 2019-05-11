@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7211f457-9224-4965-8626-b18e79c87314" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortingalgorithms/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingalgorithms/SortArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sortingalgorithms/SortArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="233">
               <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="427" column="16" lean-forward="true" selection-start-line="427" selection-start-column="16" selection-end-line="427" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -65,12 +76,13 @@
         <option value="$PROJECT_DIR$/src/datastructures/tree/Tree.java" />
         <option value="$PROJECT_DIR$/src/sortalgorithms/SortArray.java" />
         <option value="$PROJECT_DIR$/src/algorithms/Algorithms.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/sortingalgorithms/SortArray.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -86,6 +98,11 @@
             <path>
               <item name="learnDSAlgorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnDSAlgorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnDSAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnDSAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learnDSAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -178,19 +195,20 @@
       <workItem from="1556677859013" duration="4495000" />
       <workItem from="1556826636631" duration="6016000" />
       <workItem from="1556994775481" duration="15424000" />
-      <workItem from="1557119035299" duration="725000" />
-      <workItem from="1557536862083" duration="878000" />
+      <workItem from="1557169445309" duration="1280000" />
+      <workItem from="1557338173540" duration="292000" />
+      <workItem from="1557425216132" duration="3738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126717000" />
+    <option name="totallyTimeSpent" value="130493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498366" visible="true" weight="0.3107676" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498366" visible="true" weight="0.3107676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -200,7 +218,7 @@
       <window_info anchor="bottom" id="Flutter Performance" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.25723472" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.25618812" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39975247" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -210,7 +228,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2658092" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32583067" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32549506" />
       <window_info anchor="right" id="Flutter Inspector" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Flutter Outline" order="2" />
@@ -345,20 +363,24 @@
     <entry file="file://$PROJECT_DIR$/DataStructures.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3700">
-          <caret line="187" column="10" selection-start-line="187" selection-start-column="10" selection-end-line="187" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="427" column="16" lean-forward="true" selection-start-line="427" selection-start-column="16" selection-end-line="427" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/Algorithms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="211" column="33" selection-start-line="211" selection-start-column="33" selection-end-line="211" selection-end-column="33" />
+        <state relative-caret-position="265">
+          <caret line="203" column="8" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -53,6 +53,22 @@ public class SortArray {
         System.out.println(Arrays.toString(nums));
     }
 
+    public static void insertionSort(double[] nums) {
+        int n = nums.length;
+        for (int i = 1; i < n; i++) {
+            double num = nums[i];
+            int j = i - 1;
+
+            while (j >= 0 && nums[j] > num) {
+                nums[j+1] = nums[j];
+                j = j - 1;
+            }
+            nums[j+1] = num;
+        }
+        System.out.println("insertion sort algorithm with double value");
+        System.out.println(Arrays.toString(nums));
+    }
+
     //time complext o(nlongn), space o(n)
     public static void mergeSort(int[] nums) {
         mergeSort(nums, 0, nums.length-1);
@@ -252,6 +268,33 @@ public class SortArray {
         }
 
         return max;
+    }
+
+    //time complex o(n+k), space complex o(n*k)
+    public static void bucketSort(double[] nums, int n) {
+        List<LinkedList<Double>> buckets = new ArrayList<>();
+        for (int i = 0; i < n; i++) buckets.add(new LinkedList<>());
+
+        for (double num : nums) {
+            buckets.get((int)(n*num)).add(num);
+        }
+
+        for (int i = 0; i < buckets.size(); i++) {
+            if (buckets.get(i) != null) {
+                Collections.sort(buckets.get(i));
+            }
+        }
+
+        int j = 0;
+        for (int i = 0; i < buckets.size(); i++) {
+            while (!buckets.get(i).isEmpty()) {
+                double data = buckets.get(i).remove();
+                nums[j] = data;
+                j++;
+            }
+        }
+
+        System.out.println(Arrays.toString(nums));
     }
 
     public static void swap(int[] nums, int i, int j) {
