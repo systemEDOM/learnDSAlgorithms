@@ -200,7 +200,9 @@ public class Main {
         //int[] nums = {2,3,6,1,7,8,9};
         //int[] nums = {1,4,1,2,7,5,21};
         //int[] nums = {56,35,62,16,3};
-        int[] nums = {101,5,4,2,1,9,28,59,39};
+        //int[] nums = {101,5,4,2,1,9,28,59,39};
+        double[] nums = {0.897, 0.565, 0.656, 0.1234, 0.665, 0.3434};
+        //double nums[] = {0.78, 0.17, 0.39, 0.26, 0.72, 0.94, 0.21, 0.12, 0.23, 0.68};
         //SortArray.selectionSort(nums);
         //SortArray.bubbleSort(nums);
         //SortArray.insertionSort(nums);
@@ -209,7 +211,8 @@ public class Main {
         //SortArray.heapSort(nums);
         //SortArray.countingSort(nums, 9); //nine is the range of my input
         //SortArray.radixSort(nums);
-        SortArray.radixSortBestImplemented(nums);
+        //SortArray.radixSortBestImplemented(nums);
+        SortArray.bucketSort(nums, nums.length);
 
 
         //int[] deck = {17,13,11,2,3,5,7};
